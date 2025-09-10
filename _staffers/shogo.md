@@ -6,6 +6,6 @@ website: https://stoyonaga.github.io/
 photo:
 meta:
   E-mail: See eClass....
-  Office Hours: Upon Request & Availability
+  Office Hours: Fridays 2:30 p.m. - 3:30 p.m. (Zoom Link via eClass)
 
 ---

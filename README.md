@@ -21,7 +21,24 @@ This course is an introduction to the concepts and tools of computer science as 
 **Prerequisites:** One of (1)-(3) below must be met: (1) (New high school curriculum): One 4U Math course with a grade of at least 75%. (2) Completion of six credits from York University MATH courses (not including courses with second digit 5) with a GPA of 5.00 or better over these credits; (3) Completion of six credits from York University mathematics courses whose second digit is 5, with an average grade not below 7.00 (B+). 
 
 ## Grading Scheme 
-TBD
+<div class="code-example" markdown="1">
+
+| Deliverable | Total Weight |
+|:-------------|:------------------|
+| Weekly Pre-Class Activities | 0% (Optional) |
+| Weekly Puzzles | 0% (Optional) |
+| Weekly Online Quizzes | 8% (Best 8/11 are considered) |
+| Labs | 32% (Best 8/10 are considered) |
+| Midterm | 25% (Up to Week 7 Material) |
+| Final Exam | 35% (Cumulative) |
+
+</div>
+
 
 ## Contact Policy
-TBD
+- The <b>Instructor Assistant</b> should be your primary point of contact <b>for all logistical matters</b> related to the course such as missed tests. We ask that you use your <a href = "https://www.yorku.ca/uit/student-services/software-and-apps/">York e-mail account (my.yorku.ca)</a> when communicating with the teaching team. 
+
+- Lab questions should be addressed during the in-person session or TA Office Hours. 
+
+- If you have missed more than 3 quizzes or 2 labs, you will be required to fill out the Accommodation Request Form <b><i>(Contact Policy > Who to Contact)</i></b>.
+

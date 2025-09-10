@@ -48,7 +48,7 @@ description: Commonly asked questions + Hints about the lab
 
     **TA Response:** Firstly, please navigate to: <b><i>Week 1: Introduction > Lab</i></b>. You will need to click each of the hyperlinks to complete the first two tasks; eClass automatically records your activity and gives you, "credit." Task 3 will require you to submit the relevant screenshot through eClass; you will get an e-mail confirming your submission.
 
-2. I am using PyCharm but I cannot access intteractive mode! Please help!
+2. I am using PyCharm but I cannot access interactive mode! Please help!
 
     **TA Response:** You should see a Python emblem near the bottom left corner of the IDE; clicking this will enable Interactive Mode. If you do not see the emblem, then please:
       - Click the, "☰" icon in the top left corner of your IDE.

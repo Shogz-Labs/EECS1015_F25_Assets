@@ -36,6 +36,22 @@ description: Commonly asked questions + Hints about the lab
 5. Should I be using Interactive Mode or Script Mode to complete the labs?
 
     **TA Response:** Interactive code is convenient for testing small snippets of code. As you can imagine, it is not very good for large-scale programs; statements are not saved. Script mode is better for completing the labs as it is easier to change the code and better supports iterative development and debugging practices.
+
+6. Do you have any advice for a 1st Year student? How can I succeed in this course (and more generally, University)?
+
+    **TA Response:** To succeed in any course, the key is to practice everyday until you can explain the concepts seamlessly. There are many resources to practice programming such as <a href = "https://codingbat.com/python">CodingBat</a> or <a href = "https://leetcode.com/">LeetCode</a>.
+
+    You should also keep up with course readings. A website that I found useful is <a href = "https://openstax.org/">OpenStax</a> which provides open-source textbooks to students. Some of the textbooks also have live coding environments for interactive learning.
+
+    If you are looking for advice on how to study, I recommend checking out <a href = "https://ocul-yor.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991036592774005164&context=L&vid=01OCUL_YOR:YOR_DEFAULT&lang=en&search_scope=OCULDiscoveryNetwork&adaptor=Local%20Search%20Engine&tab=OCULDiscoveryNetwork&query=any,contains,Letters%20to%20a%20new%20student&offset=0">Letters to a New Student: Tips to Study Smarter from a Psychologist</a>. You need to work very hard, but you also need to be efficient with your time.
+
+    In terms of succeeding in University, my biggest advice is to get involved in activities and network with your colleagues. <a href = "https://yorku.campuslabs.ca/engage/organization/cshub">CSHub</a> is a great student club to join and learn from senior students who can offer you advice and mentorship. You can also look into becoming a Student Ambassador or Peer Helper.   
+
+    If you are interested in research, I recommend looking into <a href = "https://studyoptions.students.yorku.ca/opportunities-beyond-the-classroom/research-at-york-ray">Research at York (RAY)</a> or <a href = "https://lassonde.yorku.ca/research/undergraduate-research-at-lassonde">Lassonde Undergraduate Research at York (LURA)</a>. In some cases, reaching out to faculty members and offering to volunteer in their lab can be effective as well. 
+
+    As an upper year student, you can also look into taking a project or capstone course such as <a href = "https://wiki.eecs.yorku.ca/dept/project-courses/">LE/EECS 4080</a> to build interesting projects and augment your resume.
+
+    You can increase your chances of getting a research assistant position by taking the time to read a faculty members recent work on <a href = "https://scholar.google.ca/">Google Scholar</a> and proposing a research proposal or contribution. 
 <hr>
 
 ## Lab Questions & Hints

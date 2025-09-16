@@ -1,3 +1,4 @@
-| Slides | Description | Resouces |
+| Slides | Description | Resources |
 | ----- | ----- | ----- |
 | Week 1: Course Introduction | We briefly discussed the introductory content from the first lecture and touched on the different areas of computer science. The lab deliverables were discussed and a Q&A period was held to address student concerns. | N/A |
+| Week 2: Basic Building Blocks | We briefly discussed how to write simple scripts with literals, operators, expressions, and variables. Students were reminded of how to find what a method does via documentation and how to debug with breakpoints. A very simple case study was demonstrated in the live environment. | N/A |

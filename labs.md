@@ -52,6 +52,10 @@ description: Commonly asked questions + Hints about the lab
     As an upper year student, you can also look into taking a project or capstone course such as <a href = "https://wiki.eecs.yorku.ca/dept/project-courses/">LE/EECS 4080</a> to build interesting projects and augment your resume.
 
     You can increase your chances of getting a research assistant position by taking the time to read a faculty members recent work on <a href = "https://scholar.google.ca/">Google Scholar</a> and proposing a research proposal or contribution. 
+
+7. I tried re-running my code in PrairieLearn but it won't let me. Help!
+
+    **TA Response:** While you are able to resubmit your code as many times as you wish (up until the deadline), the teaching team has set a 5 minute cooldown for each attempt. If your code fails certain test cases, this timeout will help you spend time to debug rather than applying a brute-force approach.
 <hr>
 
 ## Lab Questions & Hints
@@ -69,4 +73,23 @@ description: Commonly asked questions + Hints about the lab
     **TA Response:** You should see a Python emblem near the bottom left corner of the IDE; clicking this will enable Interactive Mode. If you do not see the emblem, then please:
       - Click the, "☰" icon in the top left corner of your IDE.
       - Hover over, "View" and select Tool Windows > Python Console.
+
+### Lab 2 (Building Blocks)
+
+1. For Task 1, what do I submit? There were many code fragments that we were instructed to write.
+
+    **TA Response:** Please only submit the last component (that is, from Q1.9) to PrairieLearn.
+
+2. For Task 4, how do you get the highest score resulting from Lab 1 and Lab 2?.
+
+    **TA Response:** The most direct way would be to use one of Python's built-in functions (Week 2 Slides, p. 140). You can also check out the documentation <a href = "https://docs.python.org/3/library/functions.html">here</a>. In future lectures, you will learn about control-flows which you can use to implement your own version of the solution.
+
+3. I don't see any starter code for Task 5 and 6. Why is that?
+
+    **TA Response:** You will be asked to write your own script from scratch. As such, it is important that you follow the requirements so that the autograder works properly. If you have any trouble, please feel free to drop by my office hour on Friday :)
+
+4. How do I convert from one datatype to the other (e.g., String to Integer)?
+
+    **TA Response:** You will need to cast the datatype using one of Python's built-in constructors (e.g., int(), float(), str(),  bool()).
+    I recommend watching this <a href = "https://www.youtube.com/watch?v=Qtq83lAoogM">video</a> if you want a really strong explanation.
 <hr>

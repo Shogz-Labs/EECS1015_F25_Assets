@@ -92,4 +92,30 @@ description: Commonly asked questions + Hints about the lab
 
     **TA Response:** You will need to cast the datatype using one of Python's built-in constructors (e.g., int(), float(), str(),  bool()).
     I recommend watching this <a href = "https://www.youtube.com/watch?v=Qtq83lAoogM">video</a> if you want a really strong explanation.
+
+### Lab 3 (Building Blocks II)
+
+1. I am having difficulty understanding Task 2. Can you give me some hints?
+
+    **TA Response:** Understanding how to get the, "correct" answer depends on your understanding of boolean operators and <a href = "https://www.math.wichita.edu/discrete-book/section-logic-equivalences.html">logical equivalences.</a> I recommend that you watch this <a href = "https://www.youtube.com/watch?v=o4KLkur0oTE">video</a> for reference.  
+
+2. For Task 3, I am having trouble understanding the question. Can you offer me some hints?
+
+    **TA Response:** You are told that a child does not need to purchase a ticket if they are under the age of 6, however, having a height greater than 120 cm requires a ticket regardless of age. Try to think of the boolean conditions as, "directions." Try to make them operate in the same, "direction". You will also need to understand exactly how logical and/or work to debug the problem. 
+
+    There is no one correct solution as boolean expressions can be written in many logically-equivalent ways.  
+
+3. I am having trouble understanding how to validate a well-formed phone number. Can you offer me some advice?
+
+    **TA Response:** Try to break the problem down into discrete pieces first; do not try to solve the problem in one-shot. For example, consider, "cleaning" the phone number first prior to checking that (1) it only consists of digits, and (2) has a length of 10.
+
+    You will need to handle the potential inclusion of trailing spaces and the symbols: "-", "(", ")", " ". 
+
+    **Hint:** A clean solution may use <a href = "https://docs.python.org/3/library/stdtypes.html#str.translate">str.translate</a> to help deal with the inclusion of non-digit characters at first!
+
+4. Can I modify the print statements in some of the tasks?
+
+    **TA Response:** Yes, but the modification must be very minimal. Remember that you are only supposed to print out the exact value that is being requested from the requirements. Do not make the string output fancy as the autograder will likely get very.... angry.... 
+
+    If you experience significant issues, please come talk to me in the lab or visit office hours on Friday :)
 <hr>

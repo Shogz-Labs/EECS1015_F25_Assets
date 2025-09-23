@@ -1,5 +1,5 @@
 ---
-title: Week 3 - String Formatting & Functions
+title: Week 4 - String Formatting & Functions
 ---
 
 Primary
@@ -7,8 +7,11 @@ Primary
   : [View](https://us.prairielearn.com/pl/login)
 
 Optional
-: **Recommended**{: .label .label-green }[TA Slides]()
-  : [View]()
+: **Recommended**{: .label .label-green }[TA Slides](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Slides/Week%2004%20-%20Functions.pdf)
+  : [View](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Slides/Week%2004%20-%20Functions.pdf)
+
+: **Recommended**{: .label .label-green }[TA Demo](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Demos/Lecture_4_UnitTest_Examples.ipynb)
+  : [View](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Demos/Lecture_4_UnitTest_Examples.ipynb)
 
 : **Recommended**{: .label .label-green }[String Formatting](#)
   : [1](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals), [2](https://www.youtube.com/watch?v=t35B5HjPm9Q), [3](https://www.youtube.com/watch?v=FrvBwdAU2dQ)

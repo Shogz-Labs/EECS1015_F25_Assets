@@ -118,4 +118,51 @@ description: Commonly asked questions + Hints about the lab
     **TA Response:** Yes, but the modification must be very minimal. Remember that you are only supposed to print out the exact value that is being requested from the requirements. Do not make the string output fancy as the autograder will likely get very.... angry.... 
 
     If you experience significant issues, please come talk to me in the lab or visit office hours on Friday :)
+
+### Lab 4 (Functions) 
+
+1. I submitted Task 1 to PrairieLearn but the autograder gave me a mark of 0! Help!
+
+    **TA Response:** Please check that you ``import doctest`` in your submission and run ``doctest.testmod()``. 
+    
+    Additionally, for your own benefit, I often recommend running ``doctest.testmod(verbose=True)`` as you can get more useful information to debug with.
+
+2. My doctest is throwing errors when I expect an AssertionError to occur. Please help!
+
+    **TA Response:** A limitation of doctest is that it compares the results with the expected value as a string. If your comparisons are not exactly the same (e.g., existence of whitespace), it will throw an error. Please ensure that you are writing concise doctest.
+
+    Additionally, for AssertionError, ensure that your doctest answer follows the template:
+    
+    ```python
+    import doctest
+
+    def foo(name: str) -> str:
+        """
+        Checks the vibe of a given person.
+
+        >>> foo('Hachi')
+        'Hello Hachi, you are a cool person!'
+
+        >>> foo(42)
+        Traceback (most recent call last):
+        ...
+        AssertionError: invalid datatype of name
+        """
+        assert isinstance(name, str), 'invalid datatype of name'
+        return f'Hello {name}, you are a cool person!'
+    doctest.testmod(verbose=True)
+    ```
+
+3. We are asked to write at least 4 doctests per function. What is the best way to come up with test cases that are actually meaningful?
+
+    **TA Response:** At a minimum, you should write doctests that cover each of the following equivalence classes:
+    - **Happy:** A well-defined test case using known inputs that execute and produce the expected output. It does not guarantee handling of error conditions.
+    - **Boundary:** Synonymous with, "edge" or, "corner" cases. They test the application under an extreme minimum or maximum argument value.
+    - **Exceptional:** Used to test the application under contract-breaking (pre and post conditions!) violation(s). We want to test the robustness of the applications error handling.
+
+4. I saw in the lab that you are using ``isinstance()`` to check the data type of your parameters. Why don't you just use ``type()``?
+
+    **TA Response:** For the purposes of this course, we are using ``isinstance()`` because it can check whether a variable belongs to multiple data types (or subclasses). This makes the amount of code you have to write for future labs (and the lab tests) more minimal, clean, and concise.
+
+    Once you take LE/EECS 2030, you will learn about the concept of inheritance. Another reason to use ``isinstance()`` is because it supports inheritance whereas ``type()`` does not. This will become much more important later on in your course work; don't worry about it too much for now :)
 <hr>

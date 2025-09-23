@@ -1,3 +1,3 @@
 | Demo | Explanation |
 | ----- | ----- |
-| TBD | TBD |
+| Unit Testing | Provides solutions to the Week 4 Recitation questions discussed in the in-person lab session. This demo provides students with hands-on examples of how to follow the function design recipe and write docttest / unittests. While the course will not require students to write unit tests, it is still discussed so that the learning curve to understand JUnit in LE/EECS 1022 and LE/EECS 2030 is trivial. |

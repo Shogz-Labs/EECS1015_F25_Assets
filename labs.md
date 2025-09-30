@@ -165,4 +165,7 @@ description: Commonly asked questions + Hints about the lab
     **TA Response:** For the purposes of this course, we are using ``isinstance()`` because it can check whether a variable belongs to multiple data types (or subclasses). This makes the amount of code you have to write for future labs (and the lab tests) more minimal, clean, and concise.
 
     Once you take LE/EECS 2030, you will learn about the concept of inheritance. Another reason to use ``isinstance()`` is because it supports inheritance whereas ``type()`` does not. This will become much more important later on in your course work; don't worry about it too much for now :)
+
+### Lab 5 (Functions II)
+**TBD (Soon) :)**
 <hr>

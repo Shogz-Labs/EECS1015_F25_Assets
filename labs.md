@@ -167,5 +167,46 @@ description: Commonly asked questions + Hints about the lab
     Once you take LE/EECS 2030, you will learn about the concept of inheritance. Another reason to use ``isinstance()`` is because it supports inheritance whereas ``type()`` does not. This will become much more important later on in your course work; don't worry about it too much for now :)
 
 ### Lab 5 (Functions II)
-**TBD (Soon) :)**
+
+1. What specifically should I be submitting for Task 1 to PrairieLearn?
+
+    **TA Response:** You need to submit the following **completed** functions with their corrected doctest. I have provided you with the skeleton code below.
+    
+    ```python
+    import doctest
+
+    def circle_area(radius: float) -> float:
+        pass
+    
+    def circle_circumference(radius: float) -> float:
+        pass
+
+    doctest.testmod()
+    ```
+
+2. I have been stuck on Task 2 for a long time. Everything I try to do causes more errors. Help!
+
+    **TA Response:** Use the debugger and step through the code line-by-line. Remember that ```x``` and ```y``` are global variables which means that they are shared across all of the functions and main method. 
+
+    You should also consider the fact that function1 relies on **y** being instantiated to instantiate **x**.
+
+3. I have corrected the bugs in Task 2, however, the autograder keeps giving me a final mark of 0! Help!
+
+    **TA Response:** Please ensure that you are only submitting ```problematic_function``` to PrairieLearn.
+
+4. For Task 4, it is recommended to decompose the functions into more modular components. Can you give me some direction?
+
+    **TA Response:** You should modularize pieces of code that can be re-used between ```my_food_credit``` and ```opponent_food_credit```.
+    
+    For example, it makes sense to create methods that calculate (1) the raw credits for each participant based on their class, and (2) penalty scores based on the opponent.
+
+    As the program becomes more sophisticated (e.g., more classes are added under consideration), it will become clear why modularizing the functions becomes useful (especially for Test-Driven Development purposes).
+
+5.  I am completely overwhelmed by Task 5. Can you please offer me any sort of hints or tricks?
+
+    **TA Response:** You have actually already solved a variant of this problem! The general approach to solving Task 5 is very similar to Lab 3 Task 4 (Phone Number).
+    
+    First, you need to validate the basic pre-conditions (e.g., data type of parameters). Following this, you slowly begin to pre-process the input and check the other pre-conditions starting from broad cases (e.g., placement of the bars) to specific ones. 
+
+    I strongly encourage you to take a look at the test cases after you submit the preliminary code to PrairieLearn.
 <hr>

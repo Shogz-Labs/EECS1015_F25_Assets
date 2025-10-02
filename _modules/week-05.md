@@ -21,3 +21,6 @@ Optional
 
 : **Recommended**{: .label .label-green }[Recursion (Videos)]()
   : [1](https://www.youtube.com/watch?v=ivl5-snqul8), [2](https://www.youtube.com/watch?v=mH8uMBGQ-10)
+
+: **Challenge (Recitation)**{: .label .label-yellow }[Regular Expressions](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Demos/Recitation_Regular_Expressions_Examples.ipynb)
+  : [View](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Demos/Recitation_Regular_Expressions_Examples.ipynb)

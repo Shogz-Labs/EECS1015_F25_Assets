@@ -16,10 +16,10 @@ Optional
 : **Recommended**{: .label .label-green }[Memory Model Visualizer](https://pythontutor.com/visualize.html#)
   : [View](https://pythontutor.com/visualize.html#)
 
-: **Recommended**{: .label .label-green }[Variable Scope (Videos)]()
+: **Recommended**{: .label .label-green }[Variable Scope (Videos)](#week-5-local-global-variables-functions-cont-and-recursion)
   : [1](https://www.youtube.com/watch?v=KyCw1uA1-M8), [2](https://www.youtube.com/watch?v=QYUbLevwgDQ)
 
-: **Recommended**{: .label .label-green }[Recursion (Videos)]()
+: **Recommended**{: .label .label-green }[Recursion (Videos)](#week-5-local-global-variables-functions-cont-and-recursion)
   : [1](https://www.youtube.com/watch?v=ivl5-snqul8), [2](https://www.youtube.com/watch?v=mH8uMBGQ-10)
 
 : **Challenge (Recitation)**{: .label .label-yellow }[Regular Expressions](https://github.com/Shogz-Labs/EECS1015_F25_Assets/blob/main/ta_recitations/Demos/Recitation_Regular_Expressions_Examples.ipynb)

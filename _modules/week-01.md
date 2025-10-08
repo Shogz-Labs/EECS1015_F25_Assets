@@ -12,7 +12,7 @@ Primary
 : **Mandatory**{: .label .label-red }[PrairieLearn Registration](https://eclass.yorku.ca/)
   : [Use eClass Invitation Link](https://eclass.yorku.ca/)
 
-: **Mandatory**{: .label .label-red }[IDE Installation](#)
+: **Mandatory**{: .label .label-red }[IDE Installation](#week-1-course-introduction-getting-started)
   : [Wing Personal (Recommended)](https://www.wingware.com/downloads)
   : [PyCharm (Optional)](https://www.jetbrains.com/pycharm/download/?section=windows)
 

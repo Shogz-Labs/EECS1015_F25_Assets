@@ -2,6 +2,7 @@
 layout: page
 title: Labs (FAQ)
 description: Commonly asked questions + Hints about the lab
+math: katex
 ---
 
 # Labs (FAQ)
@@ -212,8 +213,59 @@ description: Commonly asked questions + Hints about the lab
 
 ### Lab 6 (Control Flow)
 
-1. TBD
+1. What specifically should I be submitting for Task 1 to PrairieLearn?
 
-    **TA Response:** TBD
+    **TA Response:** You need to submit the following **completed** functions with their corrected doctest. I have provided you with the skeleton code below.
+    
+    ```python
+    import doctest
 
-<hr>
+    def is_prime(num: int) -> bool:
+        """
+        Your function description and tests go here
+        """
+        pass
+    
+    def count_primes(start: int, stop: int) -> int:
+        """
+        Your function description and tests go here
+        """
+        pass
+
+    doctest.testmod(verbose = True)
+    ```
+
+2. I am trying to implement the Leibniz Formula for Task 3 but all of my values are slightly off. Why is this happening?
+
+    **TA Response:** Recall that the formula is: $$\large \pi \approx 4 \times \sum\limits_{n=1}^m{\frac{(-1)^n}{2n + 1}}$$. In particular, you should be paying close attention to how the numerator is calculated due to order of operations:
+
+    | Precedence Level | Operators |
+    |:-------------|:--------------------------------------------------------|
+    | 1            | Brackets                                                | 
+    | 2            | Exponents                                               | 
+    | 3            | Sign (+, -)                                             | 
+    | 4            | Multiplication, Division, Modulo, At                    | 
+    | 5            | Addition, Subtraction                                   |
+    | 6            | Less Than, LEQ, Greater Than, GEQ, Equals, Not Equal To |
+    | 7            | Logical Negation $$(\neg)$$                             |
+    | 8            | Logical And $$(\wedge)$$                                |
+    | 9            | Logical Or $$(\vee)$$                                   |
+
+    Also, do note the following equivalences between for loops and mathematical notation. $$\large \sum\limits_{i=0}^{10}{i}$$ is equivalent to the following Python loop:
+    
+    ```python
+    sum = 0
+    for i in range(0, 11, 1):
+        sum += i
+    print(sum)
+    ```
+
+3. I am having trouble with the Caesar Cipher shifting (Task 4). I don't understand how to support the wrap-around.
+
+    **TA Response:** Remember that in ASCII, A-Z is represented as 65-90. The wrap-around can be implemented by making smart use of the modulo (%) operator and accounting for the numerical shifts to keep values between 65 and 90. 
+
+    Additionally, you could use a String alphabet to simplify the solution so that you don't need to account for the offset, however, there is a small memory overhead.
+
+4. To solve Task 5, is it necessary to use a for loop?
+
+    Not necessarily; the same outcome can be achieved by using string slicing!

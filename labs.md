@@ -237,7 +237,10 @@ math: katex
 
 2. I am trying to implement the Leibniz Formula for Task 3 but all of my values are slightly off. Why is this happening?
 
-    **TA Response:** Recall that the formula is: $$\large \pi \approx 4 \times \sum\limits_{n=1}^m{\frac{(-1)^n}{2n + 1}}$$. In particular, you should be paying close attention to how the numerator is calculated due to order of operations:
+    **TA Response:** Recall that the formula is: $$\large \pi \approx 4 \times \sum\limits_{n=0}^m{\frac{(-1)^n}{2n + 1}}$$.
+    
+    
+    You should be paying close attention to how the numerator is calculated due to order of operations:
 
     | Precedence Level | Operators |
     |:-------------|:--------------------------------------------------------|

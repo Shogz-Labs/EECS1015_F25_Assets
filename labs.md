@@ -209,4 +209,11 @@ description: Commonly asked questions + Hints about the lab
     First, you need to validate the basic pre-conditions (e.g., data type of parameters). Following this, you slowly begin to pre-process the input and check the other pre-conditions starting from broad cases (e.g., placement of the bars) to specific ones. 
 
     I strongly encourage you to take a look at the test cases after you submit the preliminary code to PrairieLearn.
+
+### Lab 6 (Control Flow)
+
+1. TBD
+
+    **TA Response:** TBD
+
 <hr>

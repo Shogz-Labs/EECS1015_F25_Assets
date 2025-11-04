@@ -272,3 +272,9 @@ math: katex
 4. To solve Task 5, is it necessary to use a for loop?
 
     Not necessarily; the same outcome can be achieved by using string slicing!
+
+### Lab 7 (Collections I)
+
+1. TBD
+
+    **TA Response:** TBD

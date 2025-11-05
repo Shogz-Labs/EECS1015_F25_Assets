@@ -307,10 +307,19 @@ math: katex
     ```python
     # Empty List
     bool([])
+    # Empty Tuple
+    bool(())
     # Empty Set 
+    bool(set())
+    # Empty Dict 
     bool({})
-    # Non-Empty Dictionary
-    bool({'hello': 'world'})
+
+    # Non-Empty List
+    bool([1])
     # Non-Empty Tuple
     bool((1000,)) 
+    # Non-Empty Set 
+    bool({1, 2, 3, 4})
+    # Non-Empty Dictionary
+    bool({'hello': 'world'})
     ```

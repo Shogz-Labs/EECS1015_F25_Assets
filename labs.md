@@ -275,6 +275,42 @@ math: katex
 
 ### Lab 7 (Collections I)
 
-1. TBD
+1. How can we check whether the numbers (after splitting) do not contain illegal characters (such as alphabetical characters)? Moreover, how can we ensure that the method accepts an arbitrary number of ints or floats? 
 
-    **TA Response:** TBD
+    **TA Response:** Think back to Lab 5, Task 5 (```absolute_value(str)```); Once you get the list of numbers after splitting by, "\|", you need to pre-process each number and check that it is well-formed.
+
+    You can validate if the number is initially well-formed by replacing legal (non-digit characters) with the empty string and then using str.isdigit() in an assertion.
+
+    You should still check that the following properties are met prior to casting the string into an int / float:
+
+    - Whitespaces are removed (replaced/stripped).
+    - If there is a positive sign ('+') in the string, that it is in the correct (legal) position. 
+    - If there is a negative sign ('-') in the string, that it is in the correct (legal) position.
+    - If there is a decimal sign ('.') in the string, that it is in the correct (legal) position.
+    - If there is an, 'e' operator in the string, that it is in the correct (legal) position.
+    - That the counts of operators makes sense. 
+    
+    
+2. For Task 2, is there a more optimal way to check whether all of the items in ```input_list``` are non-negative integers? 
+
+    **TA Response:** Yes; you will learn about it next week. The more efficient way to write the code would be to leverage <a href = "https://www.w3schools.com/python/python_lists_comprehension.asp">list comprehension</a> with the built-in <a href = "https://www.w3schools.com/python/ref_func_all.asp">all(iterable, /)</a> function.
+
+3. I am having a lot of difficulty with Task 4. Can you please give me some hints? Do I need to write my own sorting function?
+
+    **TA Response:** You should check out the documentation <a href = "https://docs.python.org/3/howto/sorting.html">here</a> for more help. You do not need to write your own sorting algorithm for this problem. 
+
+4. For Tasks 6/7, I am having a great deal of difficulty with determining when to throw an AssertionError. Can you provide me with some ideas?
+
+    **TA Response:** Think broadly; try writing a boolean condition that uses the length of the collection as an upper bound against the index. You also need to consider boundary cases where you try to remove any index from an empty collection.
+
+    It may help you to consider how ```bool()``` works by providing collections of different sizes to the constructor. Try running the following lines in the interactive shell:
+    ```python
+    # Empty List
+    bool([])
+    # Empty Set 
+    bool({})
+    # Non-Empty Dictionary
+    bool({'hello': 'world'})
+    # Non-Empty Tuple
+    bool((1000,)) 
+    ```

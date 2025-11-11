@@ -323,3 +323,8 @@ math: katex
     # Non-Empty Dictionary
     bool({'hello': 'world'})
     ```
+
+### Lab 8 (Collections II)
+1. TBD
+
+    **TA Response:** TBD

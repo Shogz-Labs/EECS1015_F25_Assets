@@ -325,6 +325,35 @@ math: katex
     ```
 
 ### Lab 8 (Collections II)
+1. I am unsure of what's happening with Task 1! I submit the code to PrairieLearn but the autograder says that my signature annotation is wrong. What should I do!? AHHHHH!!!!
+
+    **TA Response:** The autograder will not accept signature annotations that use imports from the typing module. Use the built-in annotations
+    that do not require an import.
+
+2. I am really lost with Task 2. The code that they gave us is giving me a headache! Can you offer some advice?
+
+    **TA Response:** The first step should be to fix syntax errors (e.g., missing indentation, imports, etc.,) After this has been done, I recommend:
+
+    - Ensuring the consistency of expected data types.
+    - Validating the boolean conditions for your branches.
+    
+    It is also very important that you understand the difference between **continue** and **break**.
+    I suggest that you refer <a href = "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements">here</a> for additional clarification. 
+
+3. For Task 3, how do I keep track of the most frequent numbers?
+
+    **TA Response:** Solving this question relies on your mastery of the dict() data structure. Consider the following before you begin implementing:
+
+    - For each number, you need to record how many times it appears in the list. (What do you think the key-value pairs should represent?)
+    - Afterwards, you need to determine the maximum value for the number of appearances.
+    - You can iterate through the key-value pairs of the dictionary to identify the numbers which should appear in the final solution.
+
+    I strongly recommend that you take a read through **help(dict)** in the interactive shell.
+    Please speak with me in the lab or during office hours for additional assistance.
+
+### Lab 9 (Collections III)
+
 1. TBD
 
     **TA Response:** TBD
+

@@ -353,7 +353,69 @@ math: katex
 
 ### Lab 9 (Collections III)
 
+1. What specifically should I be submitting for Task 1 to PrairieLearn?
+
+    **TA Response:** You need to submit the following **completed** functions with their corrected doctest. I have provided you with the skeleton code below.
+    
+    ```python
+    import doctest
+
+    def is_odd(num: int) -> bool:
+        """
+        Your function description and tests go here
+        """
+        pass
+    
+    def separate_numbers(nested_list: list[list[int]]) -> dict[str, dict[str, list[int]]]:
+        """
+        Your function description and tests go here
+        """
+        pass
+    doctest.testmod(verbose = True)
+    ```
+
+    **Do note use the type annotations from typing or the Autograder will not work properly!**
+
+2. I am having a lot of difficulties with Task 2. I feel like I have fixed most of the issues but my doctest is still failing! Can you offer me some advice or hints?
+
+    **TA Response:** I highly suggest that you implement and test each module in isolation. 
+    
+    Once you are sure that each of the components works correctly, you can rebuild the program and submit the final code.
+
+3. For Task 2, my IDE is showing a Lint Error in the signature annotation's return type. Why is this?
+
+    **TA Response:** You need to explicitly define the Tuple annotation. You can fix it by replacing ```(List[int], float)``` with ```Tuple[List[int], float]```.
+    
+    Please remember that you will also need to add the following import statement: ```from typing import List, Tuple```.
+
+4. I've been stuck on Task 3 for hours! I don't know what methods I am allowed to touch/modify.
+
+    **TA Response:** I recommend approaching the problem in the following way:
+    - Review the game logic found in ```play_tic_tac_toe()```. You will need to understand this to start working backwards and implementing the helper functions properly.
+    - Implement and evaluate ```initialize_board()```. 
+    - Implement and evaluate ```drop_piece()```.
+    - For ```is_winner()```, implement each of the win-condition checkers as a separate helper method:
+
+    ```
+        (i) Check for horizontal win-con
+        (ii) Check for vertical win-con
+        (iii) Check for diagonal win-con type 1 (Top-Left to Bottom-Right)
+        (iv) Check for diagonal win-con type 2 (Top-Right to Bottom Left)
+    ```
+    **Note:** You should not modify the provided code ```print_board()```, ```play_tic_tac_toe()``` in any capacity.
+
+    Some other tips that may help:
+    - Checking for a vertical/horizontal win-condition will require a nested for-loop. 
+    - Checking for a diagonal win-condition will only require 1 for-loop.
+    - You can use the <a href = "https://docs.python.org/3/library/functions.html#all">all()</a> function in tandem with for-loops and/or list comprehension to succinctly check for a win-condition.
+    - **The biggest conundrum comes from understanding how to properly index the board.** I recommend drawing out a board with each cell containing the numerical indexes to discover the underlying pattern(s) required to check for win-conditions with nested for-loops. This should make things substantially more clear :)
+
+    If you still require additional help, please speak to me in the lab or during office hours! 
+    
+    This lab is a bit trickier than the past ones so don't feel bad if it takes you more time to pass all of the test-cases on PL :) 
+
+### Lab 10 (Classes & Objects)
+
 1. TBD
 
     **TA Response:** TBD
-

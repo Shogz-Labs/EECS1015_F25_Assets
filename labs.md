@@ -406,6 +406,7 @@ math: katex
 
     Some other tips that may help:
     - Checking for a vertical/horizontal win-condition will require a nested for-loop. 
+    - If you transpose the board (hint: <a href = "https://docs.python.org/3/library/functions.html#zip">zip()</a>), you can re-use your horizontal win-condition checker for the vertical check. Do note that this approach will require you to understand tuple unpacking as well.
     - Checking for a diagonal win-condition will only require 1 for-loop.
     - You can use the <a href = "https://docs.python.org/3/library/functions.html#all">all()</a> function in tandem with for-loops and/or list comprehension to succinctly check for a win-condition.
     - **The biggest conundrum comes from understanding how to properly index the board.** I recommend drawing out a board with each cell containing the numerical indexes to discover the underlying pattern(s) required to check for win-conditions with nested for-loops. This should make things substantially more clear :)

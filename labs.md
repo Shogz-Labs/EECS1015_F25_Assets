@@ -417,6 +417,31 @@ math: katex
 
 ### Lab 10 (Classes & Objects)
 
-1. TBD
+1. Do I need to write doctests for Task 1?
 
-    **TA Response:** TBD
+    **TA Response:** No, you are not required to write doctests, but you really should.
+    
+2. I have spent hours trying to debug Task 2 but there are still so many failed doctests! Can you please give me some guidance?
+
+    **TA Response:** Please don't feel too discouraged; this task is the trickiest debugging question that you have seen so far. 
+    
+    Firstly, I recommend debugging the ```Product``` class in isolation first. Once you have guaranteed its correctness, proceed to work on the ```Inventory``` class. 
+
+    For the ```Product``` Class...
+
+    - Ensure that each of the methods lie within the correct scope.
+    - Ensure that the methods behave as expected by referring to the function descriptions and rubric (test-cases).
+    
+    For the ```Inventory``` Class...
+
+    - Pay very special attention to ```stock_product()```:
+    
+    ```    
+    (i) Are the class attributes defined and used properly?
+    (ii) Are you implementing the correct behaviour, per the rubric (test-cases)?
+    (iii) Are you using the supported methods of the class to solve this problem properly?
+    ```    
+        
+    - **Hint:** ```stock_product()``` should increase the quantity of a product in the inventory if it already exists. If it doesn't exist, you should add it to the, "database" accordingly.
+
+    - **Hint:** When you check if the product exists within the, "database", consider how to properly check for object equality. Is it enough to only check if the product names are equal?
